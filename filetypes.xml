@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="popularBooks" type="EJS" />
+      <mapping pattern="popularBooks.ejs" type="Native" />
+      <mapping pattern="addBook.js" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
