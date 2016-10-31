@@ -1,0 +1,203 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose readDependencies loading dependencies from F:\BookChor - Copy\bookChor\package.json
+5 verbose install where, deps [ 'F:\\BookChor - Copy\\bookChor',
+5 verbose install   [ 'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'ejs',
+5 verbose install     'express',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'mysql',
+5 verbose install     'multer',
+5 verbose install     'should',
+5 verbose install     'mocha',
+5 verbose install     'supertest' ] ]
+6 verbose install where, peers [ 'F:\\BookChor - Copy\\bookChor', [] ]
+7 verbose installManyTop reading for lifecycle F:\BookChor - Copy\bookChor\package.json
+8 info preinstall bookChor@0.0.0
+9 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\body-parser\package.json
+10 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\cookie-parser\package.json
+11 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\debug\package.json
+12 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\ejs\package.json
+13 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\express\package.json
+14 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\morgan\package.json
+15 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\mysql\package.json
+16 verbose installManyTop reading scoped package data from F:\BookChor - Copy\bookChor\node_modules\serve-favicon\package.json
+17 verbose readDependencies loading dependencies from F:\BookChor - Copy\bookChor\package.json
+18 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\body-parser\package.json
+19 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\cookie-parser\package.json
+20 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\debug\package.json
+21 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\ejs\package.json
+22 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\express\package.json
+23 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\morgan\package.json
+24 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\mysql\package.json
+25 verbose targetResolver reading package data from F:\BookChor - Copy\bookChor\node_modules\serve-favicon\package.json
+26 verbose already installed skipping express@~4.13.4 F:\BookChor - Copy\bookChor
+27 verbose already installed skipping morgan@~1.7.0 F:\BookChor - Copy\bookChor
+28 verbose already installed skipping serve-favicon@~2.3.0 F:\BookChor - Copy\bookChor
+29 verbose already installed skipping mysql@2.11.1 F:\BookChor - Copy\bookChor
+30 silly cache add args [ 'multer@1.1.0', null ]
+31 verbose cache add spec multer@1.1.0
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'multer@1.1.0',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'multer',
+32 silly cache add   rawSpec: '1.1.0',
+32 silly cache add   spec: '1.1.0',
+32 silly cache add   type: 'version' }
+33 silly addNamed multer@1.1.0
+34 verbose addNamed "1.1.0" is a plain semver version for multer
+35 silly mapToRegistry name multer
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'multer',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   name: 'multer',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri https://registry.npmjs.org/multer
+40 verbose addNameVersion registry:https://registry.npmjs.org/multer not in flight; fetching
+41 silly cache add args [ 'should@~7.1.0', null ]
+42 verbose cache add spec should@~7.1.0
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'should@~7.1.0',
+43 silly cache add   scope: null,
+43 silly cache add   name: 'should',
+43 silly cache add   rawSpec: '~7.1.0',
+43 silly cache add   spec: '>=7.1.0 <7.2.0',
+43 silly cache add   type: 'range' }
+44 silly addNamed should@>=7.1.0 <7.2.0
+45 verbose addNamed ">=7.1.0 <7.2.0" is a valid semver range for should
+46 silly addNameRange { name: 'should', range: '>=7.1.0 <7.2.0', hasData: false }
+47 silly mapToRegistry name should
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'should',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   name: 'should',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/should
+52 verbose addNameRange registry:https://registry.npmjs.org/should not in flight; fetching
+53 silly cache add args [ 'mocha@~2.3.3', null ]
+54 verbose cache add spec mocha@~2.3.3
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'mocha@~2.3.3',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'mocha',
+55 silly cache add   rawSpec: '~2.3.3',
+55 silly cache add   spec: '>=2.3.3 <2.4.0',
+55 silly cache add   type: 'range' }
+56 silly addNamed mocha@>=2.3.3 <2.4.0
+57 verbose addNamed ">=2.3.3 <2.4.0" is a valid semver range for mocha
+58 silly addNameRange { name: 'mocha', range: '>=2.3.3 <2.4.0', hasData: false }
+59 silly mapToRegistry name mocha
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'mocha',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   name: 'mocha',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npmjs.org/mocha
+64 verbose addNameRange registry:https://registry.npmjs.org/mocha not in flight; fetching
+65 silly cache add args [ 'supertest@~1.1.0', null ]
+66 verbose cache add spec supertest@~1.1.0
+67 silly cache add parsed spec Result {
+67 silly cache add   raw: 'supertest@~1.1.0',
+67 silly cache add   scope: null,
+67 silly cache add   name: 'supertest',
+67 silly cache add   rawSpec: '~1.1.0',
+67 silly cache add   spec: '>=1.1.0 <1.2.0',
+67 silly cache add   type: 'range' }
+68 silly addNamed supertest@>=1.1.0 <1.2.0
+69 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for supertest
+70 silly addNameRange { name: 'supertest', range: '>=1.1.0 <1.2.0', hasData: false }
+71 silly mapToRegistry name supertest
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: 'supertest',
+74 silly mapToRegistry   scope: null,
+74 silly mapToRegistry   name: 'supertest',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/supertest
+76 verbose addNameRange registry:https://registry.npmjs.org/supertest not in flight; fetching
+77 verbose already installed skipping body-parser@~1.15.1 F:\BookChor - Copy\bookChor
+78 verbose already installed skipping cookie-parser@~1.4.3 F:\BookChor - Copy\bookChor
+79 verbose already installed skipping debug@~2.2.0 F:\BookChor - Copy\bookChor
+80 verbose already installed skipping ejs@~2.4.1 F:\BookChor - Copy\bookChor
+81 verbose request uri https://registry.npmjs.org/multer
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 8:24:06 PM
+84 verbose request id 5979b4c06b7da948
+85 http request GET https://registry.npmjs.org/multer
+86 verbose request uri https://registry.npmjs.org/mocha
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 8:24:06 PM
+89 http request GET https://registry.npmjs.org/mocha
+90 verbose request uri https://registry.npmjs.org/supertest
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 8:24:06 PM
+93 http request GET https://registry.npmjs.org/supertest
+94 verbose request uri https://registry.npmjs.org/should
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 8:24:06 PM
+97 http request GET https://registry.npmjs.org/should
+98 info retry will retry, error on last attempt: Error: read ECONNRESET
+99 info retry will retry, error on last attempt: Error: read ECONNRESET
+100 info retry will retry, error on last attempt: Error: read ECONNRESET
+101 info retry will retry, error on last attempt: Error: read ECONNRESET
+102 info attempt registry request try #2 at 3:57:25 PM
+103 http request GET https://registry.npmjs.org/multer
+104 info attempt registry request try #2 at 3:57:25 PM
+105 http request GET https://registry.npmjs.org/should
+106 info attempt registry request try #2 at 3:57:25 PM
+107 http request GET https://registry.npmjs.org/mocha
+108 info attempt registry request try #2 at 3:57:25 PM
+109 http request GET https://registry.npmjs.org/supertest
+110 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+111 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+112 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+113 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+114 info attempt registry request try #3 at 3:58:25 PM
+115 http request GET https://registry.npmjs.org/multer
+116 info attempt registry request try #3 at 3:58:25 PM
+117 http request GET https://registry.npmjs.org/should
+118 info attempt registry request try #3 at 3:58:25 PM
+119 http request GET https://registry.npmjs.org/mocha
+120 info attempt registry request try #3 at 3:58:25 PM
+121 http request GET https://registry.npmjs.org/supertest
+122 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+122 verbose stack     at errnoException (dns.js:27:10)
+122 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:78:26)
+123 verbose cwd F:\BookChor - Copy\bookChor
+124 error Windows_NT 10.0.10240
+125 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+126 error node v4.4.5
+127 error npm  v2.15.5
+128 error code ENOTFOUND
+129 error errno ENOTFOUND
+130 error syscall getaddrinfo
+131 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+131 error network This is most likely not a problem with npm itself
+131 error network and is related to network connectivity.
+131 error network In most cases you are behind a proxy or have bad network settings.
+131 error network
+131 error network If you are behind a proxy, please make sure that the
+131 error network 'proxy' config is set properly.  See: 'npm help config'
+132 verbose exit [ 1, true ]

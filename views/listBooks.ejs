@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>- Home </title>
+    <link href="./images/favicon.ico" type="image/x-icon" rel=icon>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div align="center">
+    <img src="./images/logo.png" width="240" class="img-responsive">
+</div>
+
+<div class="row">
+    <div class=" head" align="center" >
+        Recently Added
+    </div>
+</div>
+
+<% for(var i=data.length-1; i>data.length-20 && i>0 ;i--) { %>
+    <div class="container">
+
+        <div class="row container-color">
+            <div class="opacity">
+            <div class="col-md-5">
+                <div class="col-md-12">
+                    Name : <%= data[i].bookname%><br>
+                </div>
+                <div class="col-md-12">
+                    Year : <%= data[i].bookyear%><br>
+                </div>
+                <div class="col-md-12">
+                    Course : <%= data[i].course%><br>
+                </div>
+                <div class="col-md-12">
+                    Description : <%= data[i].bookinfo%>
+                </div>
+                <div class="col-md-12">
+                    Condition : <%= data[i].condition%>
+                </div>
+            </div>
+
+            <span class="col-md-1"></span>
+
+                <div class="col-md-5">
+                    <div class="col-md-12">
+                        Senior Name : <%= data[i].sellername%><br>
+                    </div>
+                    <div class="col-md-12">
+                        Hostel And Room No. :  <%= data[i].address%><br>
+                    </div>
+                    <div class="col-md-12">
+                        Mobile No. : <%= data[i].mobile%><br>
+                    </div>
+                    <div class="col-md-12">
+                        More Details : <%= data[i].sellerinfo%>
+                    </div>
+                    <div class="col-md-12">
+                        Price : <%= data[i].price%>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<% } %>
+
+</body>
+</html>
