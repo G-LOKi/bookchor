@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="popularBooks" type="EJS" />
       <mapping pattern="popularBooks.ejs" type="Native" />
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="addBook.js" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
